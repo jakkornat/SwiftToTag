@@ -12,7 +12,7 @@
         <scene sceneID="ynn-iY-6YK">
             <objects>
                 <windowController id="sxv-6q-Q8g" sceneMemberID="viewController">
-                    <window key="window" title="TagMySwift - about" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" frameAutosaveName="" animationBehavior="default" id="SuE-SH-Ld5">
+                    <window key="window" title="SwiftToTag - about" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" frameAutosaveName="" animationBehavior="default" id="SuE-SH-Ld5">
                         <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES"/>
                         <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
                         <rect key="contentRect" x="1574" y="34" width="480" height="270"/>
@@ -56,7 +56,7 @@ Jakub Kornatowski</string>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="Y4S-Jh-81v"/>
                                 </constraints>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" alignment="center" title="TagMySwift" id="csA-aS-lNh">
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" alignment="center" title="SwiftToTag" id="csA-aS-lNh">
                                     <font key="font" size="28" name="HelveticaNeue-Thin"/>
                                     <color key="textColor" red="1" green="0.2735051939" blue="0.0012486093739999999" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -64,7 +64,7 @@ Jakub Kornatowski</string>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="f7V-si-1f2">
                                 <rect key="frame" x="290" y="214" width="45" height="17"/>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="v0.1(0)" id="4HD-ly-SgD">
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="v0.1(2)" id="4HD-ly-SgD">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -120,7 +120,7 @@ Jakub Kornatowski</string>
         <!--Preferences View Controller-->
         <scene sceneID="SZ4-nX-Tvl">
             <objects>
-                <viewController id="tPe-tv-aSm" customClass="PreferencesViewController" customModule="HTML_Swift_Code_Exporter" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="tPe-tv-aSm" customClass="PreferencesViewController" customModule="SwiftToTag" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="uYZ-83-FK2">
                         <rect key="frame" x="0.0" y="0.0" width="507" height="92"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -194,11 +194,11 @@ Jakub Kornatowski</string>
                 <application id="hnw-xV-0zn" sceneMemberID="viewController">
                     <menu key="mainMenu" title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
                         <items>
-                            <menuItem title="HTML Swift Code Exporter" id="1Xt-HY-uBw">
+                            <menuItem title="SwiftToTag" id="1Xt-HY-uBw">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <menu key="submenu" title="HTML Swift Code Exporter" systemMenu="apple" id="uQy-DD-JDr">
+                                <menu key="submenu" title="SwiftToTag" systemMenu="apple" id="uQy-DD-JDr">
                                     <items>
-                                        <menuItem title="About HTML Swift Code Exporter" id="5kV-Vb-QxS">
+                                        <menuItem title="About SwiftToTag" id="5kV-Vb-QxS">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <connections>
                                                 <action selector="orderFrontStandardAboutPanel:" target="Ady-hI-5gd" id="Exp-CZ-Vem"/>
@@ -212,7 +212,7 @@ Jakub Kornatowski</string>
                                             </connections>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="wFC-TO-SCJ"/>
-                                        <menuItem title="Quit HTML Swift Code Exporter" keyEquivalent="q" id="4sb-4s-VLi">
+                                        <menuItem title="Quit SwiftToTag" keyEquivalent="q" id="4sb-4s-VLi">
                                             <connections>
                                                 <action selector="terminate:" target="Ady-hI-5gd" id="Te7-pn-YzF"/>
                                             </connections>
@@ -480,7 +480,7 @@ Jakub Kornatowski</string>
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <menu key="submenu" title="Help" systemMenu="help" id="F2S-fz-NVQ">
                                     <items>
-                                        <menuItem title="HTML Swift Code Exporter Help" keyEquivalent="?" id="FKE-Sm-Kum">
+                                        <menuItem title="SwiftToTag Help" keyEquivalent="?" id="FKE-Sm-Kum">
                                             <connections>
                                                 <action selector="showHelp:" target="Ady-hI-5gd" id="y7X-2Q-9no"/>
                                                 <segue destination="sxv-6q-Q8g" kind="show" id="D55-gB-7vY"/>
@@ -495,7 +495,7 @@ Jakub Kornatowski</string>
                         <outlet property="delegate" destination="Voe-Tx-rLC" id="PrD-fu-P6m"/>
                     </connections>
                 </application>
-                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="HTML_Swift_Code_Exporter" customModuleProvider="target"/>
+                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="SwiftToTag" customModuleProvider="target"/>
                 <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -505,7 +505,7 @@ Jakub Kornatowski</string>
         <scene sceneID="R2V-B0-nI4">
             <objects>
                 <windowController id="B8D-0N-5wS" sceneMemberID="viewController">
-                    <window key="window" title="Export to HTML Swiftly" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
+                    <window key="window" title="SwiftToTag" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
                         <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
                         <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
                         <rect key="contentRect" x="196" y="240" width="800" height="500"/>
@@ -523,10 +523,10 @@ Jakub Kornatowski</string>
             </objects>
             <point key="canvasLocation" x="75" y="250"/>
         </scene>
-        <!--TagMySwift-->
+        <!--SwiftToTag-->
         <scene sceneID="hIz-AP-VOD">
             <objects>
-                <viewController title="TagMySwift" id="XfG-lQ-9wD" customClass="ViewController" customModule="HTML_Swift_Code_Exporter" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="SwiftToTag" id="XfG-lQ-9wD" customClass="ViewController" customModule="SwiftToTag" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" wantsLayer="YES" id="m2S-Jp-Qdl">
                         <rect key="frame" x="0.0" y="0.0" width="800" height="502"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -587,7 +587,7 @@ DQ
                                     <constraint firstAttribute="width" constant="172" id="DI7-nH-y88"/>
                                     <constraint firstAttribute="height" constant="49" id="uaU-hd-hpZ"/>
                                 </constraints>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" alignment="center" title="TagMySwift" id="tD5-7A-q3U">
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" alignment="center" title="SwiftToTag" id="tD5-7A-q3U">
                                     <font key="font" size="28" name="HelveticaNeue-Thin"/>
                                     <color key="textColor" red="1" green="0.27350519394827588" blue="0.0012486093737952286" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -644,7 +644,7 @@ DQ
         <scene sceneID="Lge-Tr-Iog">
             <objects>
                 <customObject id="K7R-kK-wfq" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
-                <viewController title="Your HTML" id="rH0-uw-xbs" customClass="ConvertedVIewController" customModule="HTML_Swift_Code_Exporter" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Your HTML" id="rH0-uw-xbs" customClass="ConvertedVIewController" customModule="SwiftToTag" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="8G8-sx-N8O">
                         <rect key="frame" x="0.0" y="0.0" width="998" height="528"/>
                         <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
@@ -838,7 +838,7 @@ DQ
         <!--Web Outlook-->
         <scene sceneID="LPU-CS-Wn0">
             <objects>
-                <viewController title="Web Outlook" id="4mT-Z7-5Zt" customClass="WebOutlookViewController" customModule="HTML_Swift_Code_Exporter" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Web Outlook" id="4mT-Z7-5Zt" customClass="WebOutlookViewController" customModule="SwiftToTag" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="gsA-3X-pLp">
                         <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -881,7 +881,7 @@ DQ
         <image name="compass" width="64" height="64"/>
         <image name="documents" width="68" height="64"/>
         <image name="download" width="84" height="64"/>
-        <image name="logo" width="517" height="517"/>
+        <image name="logo" width="256" height="256"/>
         <image name="pencil" width="64" height="64"/>
     </resources>
     <inferredMetricsTieBreakers>

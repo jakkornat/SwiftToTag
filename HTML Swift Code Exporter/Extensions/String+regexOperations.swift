@@ -69,7 +69,7 @@ extension String {
     }
     
     mutating func removeSpecialCharacters(){
-        self = self.replacingOccurrences(of: "<", with: "openTag")
-        self = self.replacingOccurrences(of: ">", with: "closedTag")
+        self = self.replacingOccurrences(of: "<", with: "&lt;")
+        self = self.replacingOccurrences(of: ">", with: "&gt;")
     }
 }

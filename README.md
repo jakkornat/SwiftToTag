@@ -8,7 +8,7 @@ It's easy - just copy your Swift code directly from Xcode and paste in text area
 
 ### Version
 
-0.1(1) beta version
+0.1(2) beta version
 
 ## Autor
 

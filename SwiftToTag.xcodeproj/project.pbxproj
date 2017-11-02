@@ -47,17 +47,17 @@
 		EC5DA8161F961BFD005D49F9 /* HTMLWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTMLWindowController.swift; sourceTree = "<group>"; };
 		EC622E711F99DE2C00A38168 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		EC622E8F1F99F08B00A38168 /* WebOutlookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebOutlookViewController.swift; sourceTree = "<group>"; };
-		EC6B48081F73960700373F3E /* HTML Swift Code Exporter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HTML Swift Code Exporter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC6B48081F73960700373F3E /* SwiftToTag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftToTag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC6B480B1F73960700373F3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC6B480D1F73960700373F3E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EC6B480F1F73960700373F3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC6B48121F73960700373F3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EC6B48141F73960700373F3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC6B48151F73960700373F3E /* HTML_Swift_Code_Exporter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HTML_Swift_Code_Exporter.entitlements; sourceTree = "<group>"; };
-		EC6B481A1F73960700373F3E /* HTML Swift Code ExporterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HTML Swift Code ExporterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC6B481A1F73960700373F3E /* SwiftToTagTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftToTagTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC6B481E1F73960700373F3E /* HTML_Swift_Code_ExporterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTML_Swift_Code_ExporterTests.swift; sourceTree = "<group>"; };
 		EC6B48201F73960700373F3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EC6B48251F73960700373F3E /* HTML Swift Code ExporterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HTML Swift Code ExporterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC6B48251F73960700373F3E /* SwiftToTagUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftToTagUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC6B48291F73960700373F3E /* HTML_Swift_Code_ExporterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTML_Swift_Code_ExporterUITests.swift; sourceTree = "<group>"; };
 		EC6B482B1F73960700373F3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC7D45C71FA1B77600EA284D /* PreferencesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesViewController.swift; sourceTree = "<group>"; };
@@ -134,9 +134,9 @@
 		EC6B48091F73960700373F3E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EC6B48081F73960700373F3E /* HTML Swift Code Exporter.app */,
-				EC6B481A1F73960700373F3E /* HTML Swift Code ExporterTests.xctest */,
-				EC6B48251F73960700373F3E /* HTML Swift Code ExporterUITests.xctest */,
+				EC6B48081F73960700373F3E /* SwiftToTag.app */,
+				EC6B481A1F73960700373F3E /* SwiftToTagTests.xctest */,
+				EC6B48251F73960700373F3E /* SwiftToTagUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -197,9 +197,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EC6B48071F73960700373F3E /* HTML Swift Code Exporter */ = {
+		EC6B48071F73960700373F3E /* SwiftToTag */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EC6B482E1F73960700373F3E /* Build configuration list for PBXNativeTarget "HTML Swift Code Exporter" */;
+			buildConfigurationList = EC6B482E1F73960700373F3E /* Build configuration list for PBXNativeTarget "SwiftToTag" */;
 			buildPhases = (
 				EC6B48041F73960700373F3E /* Sources */,
 				EC6B48051F73960700373F3E /* Frameworks */,
@@ -209,14 +209,14 @@
 			);
 			dependencies = (
 			);
-			name = "HTML Swift Code Exporter";
+			name = SwiftToTag;
 			productName = "HTML Swift Code Exporter";
-			productReference = EC6B48081F73960700373F3E /* HTML Swift Code Exporter.app */;
+			productReference = EC6B48081F73960700373F3E /* SwiftToTag.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EC6B48191F73960700373F3E /* HTML Swift Code ExporterTests */ = {
+		EC6B48191F73960700373F3E /* SwiftToTagTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EC6B48311F73960700373F3E /* Build configuration list for PBXNativeTarget "HTML Swift Code ExporterTests" */;
+			buildConfigurationList = EC6B48311F73960700373F3E /* Build configuration list for PBXNativeTarget "SwiftToTagTests" */;
 			buildPhases = (
 				EC6B48161F73960700373F3E /* Sources */,
 				EC6B48171F73960700373F3E /* Frameworks */,
@@ -227,14 +227,14 @@
 			dependencies = (
 				EC6B481C1F73960700373F3E /* PBXTargetDependency */,
 			);
-			name = "HTML Swift Code ExporterTests";
+			name = SwiftToTagTests;
 			productName = "HTML Swift Code ExporterTests";
-			productReference = EC6B481A1F73960700373F3E /* HTML Swift Code ExporterTests.xctest */;
+			productReference = EC6B481A1F73960700373F3E /* SwiftToTagTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		EC6B48241F73960700373F3E /* HTML Swift Code ExporterUITests */ = {
+		EC6B48241F73960700373F3E /* SwiftToTagUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EC6B48341F73960700373F3E /* Build configuration list for PBXNativeTarget "HTML Swift Code ExporterUITests" */;
+			buildConfigurationList = EC6B48341F73960700373F3E /* Build configuration list for PBXNativeTarget "SwiftToTagUITests" */;
 			buildPhases = (
 				EC6B48211F73960700373F3E /* Sources */,
 				EC6B48221F73960700373F3E /* Frameworks */,
@@ -245,9 +245,9 @@
 			dependencies = (
 				EC6B48271F73960700373F3E /* PBXTargetDependency */,
 			);
-			name = "HTML Swift Code ExporterUITests";
+			name = SwiftToTagUITests;
 			productName = "HTML Swift Code ExporterUITests";
-			productReference = EC6B48251F73960700373F3E /* HTML Swift Code ExporterUITests.xctest */;
+			productReference = EC6B48251F73960700373F3E /* SwiftToTagUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -276,7 +276,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EC6B48031F73960700373F3E /* Build configuration list for PBXProject "HTML Swift Code Exporter" */;
+			buildConfigurationList = EC6B48031F73960700373F3E /* Build configuration list for PBXProject "SwiftToTag" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -289,9 +289,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EC6B48071F73960700373F3E /* HTML Swift Code Exporter */,
-				EC6B48191F73960700373F3E /* HTML Swift Code ExporterTests */,
-				EC6B48241F73960700373F3E /* HTML Swift Code ExporterUITests */,
+				EC6B48071F73960700373F3E /* SwiftToTag */,
+				EC6B48191F73960700373F3E /* SwiftToTagTests */,
+				EC6B48241F73960700373F3E /* SwiftToTagUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -361,12 +361,12 @@
 /* Begin PBXTargetDependency section */
 		EC6B481C1F73960700373F3E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EC6B48071F73960700373F3E /* HTML Swift Code Exporter */;
+			target = EC6B48071F73960700373F3E /* SwiftToTag */;
 			targetProxy = EC6B481B1F73960700373F3E /* PBXContainerItemProxy */;
 		};
 		EC6B48271F73960700373F3E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EC6B48071F73960700373F3E /* HTML Swift Code Exporter */;
+			target = EC6B48071F73960700373F3E /* SwiftToTag */;
 			targetProxy = EC6B48261F73960700373F3E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -531,7 +531,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "pl.swiftly.swiftcodeexporter.HTML-Swift-Code-ExporterTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HTML Swift Code Exporter.app/Contents/MacOS/HTML Swift Code Exporter";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftToTag.app/Contents/MacOS/SwiftToTag";
 			};
 			name = Debug;
 		};
@@ -547,7 +547,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "pl.swiftly.swiftcodeexporter.HTML-Swift-Code-ExporterTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HTML Swift Code Exporter.app/Contents/MacOS/HTML Swift Code Exporter";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftToTag.app/Contents/MacOS/SwiftToTag";
 			};
 			name = Release;
 		};
@@ -584,7 +584,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EC6B48031F73960700373F3E /* Build configuration list for PBXProject "HTML Swift Code Exporter" */ = {
+		EC6B48031F73960700373F3E /* Build configuration list for PBXProject "SwiftToTag" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EC6B482C1F73960700373F3E /* Debug */,
@@ -593,7 +593,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EC6B482E1F73960700373F3E /* Build configuration list for PBXNativeTarget "HTML Swift Code Exporter" */ = {
+		EC6B482E1F73960700373F3E /* Build configuration list for PBXNativeTarget "SwiftToTag" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EC6B482F1F73960700373F3E /* Debug */,
@@ -602,7 +602,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EC6B48311F73960700373F3E /* Build configuration list for PBXNativeTarget "HTML Swift Code ExporterTests" */ = {
+		EC6B48311F73960700373F3E /* Build configuration list for PBXNativeTarget "SwiftToTagTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EC6B48321F73960700373F3E /* Debug */,
@@ -611,7 +611,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EC6B48341F73960700373F3E /* Build configuration list for PBXNativeTarget "HTML Swift Code ExporterUITests" */ = {
+		EC6B48341F73960700373F3E /* Build configuration list for PBXNativeTarget "SwiftToTagUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EC6B48351F73960700373F3E /* Debug */,

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:HTML Swift Code Exporter.xcodeproj">
+      location = "self:/Users/Kuba/Desktop/SwiftToTag/test/swift-to-tag/SwiftToTag.xcodeproj">
    </FileRef>
 </Workspace>
