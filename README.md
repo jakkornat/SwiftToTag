@@ -1,10 +1,24 @@
-# SwiftToTag by Jakub Kornatowski
+<p align="center">
+<img src="Image.png" width="250" max-width="50%" alt="Imagine Engine" />
+</p>
+<p align="center">
+<img src="https://img.shields.io/badge/Swift-4.0-orange.svg" />
+<a href="https://twitter.com/jkornat">
+<img src="https://img.shields.io/badge/contact-@jkornat-blue.svg?style=flat" alt="Twitter: @jkornat" />
+</a>
+</p>
 
-SwiftToTag is a simple cocoa app to colorised your formated Swift code from Xcode to HTML code. 
+## SwiftToTag
+
+Welcom,
+SwiftToTag is a simple cocoa app to colorised your formated Swift code from Xcode to HTML code.
+Project is realising fully with Swift 4.
 
 ## How it's working?
 
 It's easy - just copy your Swift code directly from Xcode and paste in text area on started window.
+Then the app will add HTML structure and tags to your Swift code.
+Now you have ready code to place on your website.
 
 ### Version
 
@@ -12,12 +26,14 @@ It's easy - just copy your Swift code directly from Xcode and paste in text area
 
 ## Autor
 
-* **Jakub Kornatowski** - iOS & MacOS Dev and Spec. 
+* **Jakub Kornatowski** - iOS & MacOS Dev and Specialist
+CEO & Founder / Freelancer in Qcoder
 🇵🇱 Blogger at https://swiftly.pl
 
 Available for you on: 
 Twiter - @jkornat
 Snapchat - jakornat
+Instagram - @jkornat
 
 ## License
 
